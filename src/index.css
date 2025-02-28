@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply text-text-primary;
+}
+
+h3 {
+  @apply text-text-primary;
+}
+
+h1 {
+  @apply text-text-primary;
+}
+
+.wkit-button {
+  width: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  width: 100% !important;
+  color: black !important;
+  font-weight: 200 !important;
+  background-color: rgb(31 227 101 ) !important;
+}
+
+.wkit-connected-button {
+  color: black !important;
+  background-color: rgb(31 227 101 ) !important;
+}
+
